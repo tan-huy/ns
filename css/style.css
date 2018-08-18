@@ -207,3 +207,13 @@ nav ul li a.active {
   width: stretch;
   background-color: rgb(58, 58, 165)
 }
+
+.construction {
+  font: 3rem center;
+}
+
+.construction p {
+  margin: 0;
+  padding: 5rem 15rem;
+  text-align: center;
+}
