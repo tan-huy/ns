@@ -71,7 +71,7 @@ h1 {
 }
 
 .split.left {
-  left:0;
+  left: 0;
   background: url('/img/IMG_6687-1bg.jpg') center center no-repeat;
   background-size: cover;
 }
@@ -166,8 +166,15 @@ nav {
 }
 
 nav .logo {
+  text-decoration: none;
   float: left;
   font-size: 2rem;
+  font-family: 'Brush Script MT', cursive;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 nav ul {
@@ -216,4 +223,23 @@ nav ul li a.active {
   margin: 0;
   padding: 5rem 15rem;
   text-align: center;
+}
+/* ---END NAVBAR--- */
+
+
+/* ---HUY--- */
+#huy {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+}
+
+hr {
+  float: left;
+  width: 50%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
