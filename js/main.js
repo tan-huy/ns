@@ -18,8 +18,7 @@ right.addEventListener('mouseenter', () => {
 right.addEventListener('mouseleave', () => {
     container.classList.remove('hover-right');
 });
-// ---END OF LANDING---
-
+// ---END LANDING---
 
 // ---SMOOTH SCROLL---
 let anchorlinks = document.querySelectorAll('a[href^="#"]')

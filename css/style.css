@@ -125,7 +125,7 @@ h1 {
 
 .hover-right .left:before {
   z-index: 2;
-}/* ---END OF LANDING--- */
+}/* ---END LANDING--- */
 
 
 /* ---MEDIA QUERIES--- */
@@ -144,8 +144,7 @@ h1 {
     top: 70%;
   }
 }
-/* ---END OF MEDIA QUERIES--- */
-
+/* ---END MEDIA QUERIES--- */
 
 /* ---NAVBAR--- */
 .navbar {
@@ -206,28 +205,9 @@ nav ul li a.active {
   color: #fff;
   border-radius: 6px;
 }
-
 /* ---END OF NAVBAR--- */
 
-.filler {
-  height: 4000px;
-  width: stretch;
-  background-color: rgb(58, 58, 165)
-}
-
-.construction {
-  font: 3rem center;
-}
-
-.construction p {
-  margin: 0;
-  padding: 5rem 15rem;
-  text-align: center;
-}
-/* ---END NAVBAR--- */
-
-
-/* ---HUY--- */
+/* ---PROFILES--- */
 .profile {
   padding-top: 2rem;
   width: 100%;
@@ -289,3 +269,22 @@ hr {
 #jamie .content-text {
   order: 2;
 }
+/* ---END PROFILES--- */
+
+/* ---FILLER--- */
+.filler {
+  height: 4000px;
+  width: stretch;
+  background-color: rgb(58, 58, 165)
+}
+
+.construction {
+  font: 3rem center;
+}
+
+.construction p {
+  margin: 0;
+  padding: 5rem 15rem;
+  text-align: center;
+}
+/* ---END FILLER--- */
