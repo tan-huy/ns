@@ -1,4 +1,4 @@
-// ---LANDING---
+// LANDING
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
 const container = document.querySelector('.container');
@@ -18,9 +18,8 @@ right.addEventListener('mouseenter', () => {
 right.addEventListener('mouseleave', () => {
     container.classList.remove('hover-right');
 });
-// ---END LANDING---
 
-// ---SMOOTH SCROLL---
+// SMOOTH SCROLL
 let anchorlinks = document.querySelectorAll('a[href^="#"]')
  
 for (let item of anchorlinks) { // relitere 
@@ -35,4 +34,3 @@ for (let item of anchorlinks) { // relitere
         e.preventDefault()
     })
 }
-// ---END SMOOTH SCROLL---
