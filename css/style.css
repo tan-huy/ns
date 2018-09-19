@@ -291,6 +291,41 @@ hr {
   background-color: rgb(185, 185, 185)
 }
 
+.wrapper p {
+  text-align: center;
+  padding-top: 200px;
+}
+
+#project1 {
+  background: url('/img/rawpixel-683571-unsplash.jpg');
+  background-size: cover;
+}
+
+#project2 {
+  background: url('/img/rawpixel-749494-unsplash.jpg');
+  background-size: cover;
+}
+
+#project3 {
+  background: url('/img/rawpixel-752415-unsplash.jpg');
+  background-size: cover;
+}
+
+#project4 {
+  background: url('/img/sean-stratton-744803-unsplash.jpg');
+  background-size: cover;
+}
+
+#project5 {
+  background: url('/img/tyler-nix-601536-unsplash.jpg');
+  background-size: cover;
+}
+
+#project6 {
+  background: url('/img/venveo-609390-unsplash.jpg');
+  background-size: cover;
+}
+
 /* FILLER */
 .filler {
   height: 500px;
