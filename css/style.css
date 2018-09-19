@@ -288,14 +288,14 @@ hr {
 .wrapper div {
   width: 450px;
   height: 450px;
-  background-color: #e3d;
+  background-color: rgb(185, 185, 185)
 }
 
 /* FILLER */
 .filler {
-  height: 4000px;
+  height: 500px;
   width: stretch;
-  background-color: rgb(58, 58, 165)
+  background-color: rgb(154, 154, 250)
 }
 
 .construction {
