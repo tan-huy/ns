@@ -18,20 +18,3 @@ right.addEventListener("mouseenter", () => {
 right.addEventListener("mouseleave", () => {
   container.classList.remove("hover-right");
 });
-
-// SMOOTH SCROLL
-let anchorlinks = document.querySelectorAll('a[href^="#"]');
-
-for (let item of anchorlinks) {
-  // relitere
-  item.addEventListener("click", e => {
-    let x = item.getAttribute("href");
-    let target = document.querySelector(x);
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    });
-    history.pushState(null, null, x);
-    e.preventDefault();
-  });
-}
