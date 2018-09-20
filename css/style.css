@@ -83,7 +83,7 @@ h1 {
 
 .split.left {
   left: 0;
-  background: url("https://tan-huy.github.io/ns/img/IMG_6687-1bg.jpg") center
+  background: url("img/IMG_6687-1bg.jpg") center
     center no-repeat;
   background-size: cover;
 }
@@ -98,7 +98,7 @@ h1 {
 
 .split.right {
   right: 0;
-  background: url("https://tan-huy.github.io/ns/img/IMG_6316bg.jpg") center
+  background: url("img/IMG_6316bg.jpg") center
     center no-repeat;
   background-size: cover;
 }
