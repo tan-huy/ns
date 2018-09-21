@@ -327,7 +327,7 @@ hr {
 
 /* FILLER */
 .filler {
-  height: 500px;
+  height: auto;
   width: stretch;
   background-color: rgb(154, 154, 250);
 }
@@ -338,7 +338,8 @@ hr {
 }
 
 .construction p {
-  margin: 0;
+  margin: auto;
+  max-width: 1400px;
   padding: 5rem 15rem;
   text-align: center;
 }
