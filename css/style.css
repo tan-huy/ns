@@ -361,6 +361,10 @@ hr {
   margin: 10px;
 }
 
+.form-message form input {
+  height: 500px;
+}
+
 /* FILLER */
 .filler {
   height: auto;
