@@ -3,8 +3,8 @@
   --bg-color: rgba(25, 25, 25, 0.7);
   --left-button-hover-color: rgba(40, 40, 40, 0.3);
   --right-button-hover-color: rgba(92, 92, 92, 0.3);
-  --hover-width: 65%;
-  --other-width: 35%;
+  --hover-width: 60%;
+  --other-width: 40%;
   --speed: 1000ms;
 }
 
