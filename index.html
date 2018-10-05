@@ -149,6 +149,35 @@
     </div>
   </section>
 
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <header>
+      <h2>Contact Us</h2>
+      <hr>
+    </header>
+    <div class="form">
+      <div class="form-name">
+        <form>
+          <input type="text" name="name" maxlength="50" placeholder="Name" required />
+        </form>
+      </div>
+
+      <div class="form-email">
+        <form>
+          <input type="email" name="email" maxlength="50" placeholder="E-Mail" required />
+        </form>
+      </div>
+
+      <div class="form-message">
+        <form>
+          <input type="text" name="message" maxlength="500" id="textInput" onkeyup="limitTextCount('textInput', 'textCount', 500);"
+            onkeydown="limitTextCount('textInput', 'textCount', 500);" placeholder="Message" required />
+          <br>
+          <span id="textCount">500/500</span>
+        </form>
+      </div>
+  </section>
+
   <!-- FILLER -->
   <section class="filler">
     <div class="construction">

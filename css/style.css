@@ -325,6 +325,42 @@ hr {
   color: #777777;
 }
 
+/* CONTACT */
+.contact {
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact hr {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 10rem;
+}
+
+.content-text {
+  flex: 5;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+
+.form input {
+  width: 35%;
+  height: 50px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
 /* FILLER */
 .filler {
   height: auto;
