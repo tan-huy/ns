@@ -290,8 +290,7 @@ hr {
 .portfolio {
   max-width: 1400px;
   flex-basis: 1400px;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  margin: 0 auto 25px auto;
 }
 
 .wrapper {
@@ -330,28 +329,7 @@ hr {
   background-color: rgb(20, 20, 20);
   color: #ffffff;
   text-align: center;
-}
-
-/* .contact hr {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.75),
-    rgba(255, 255, 255, 0)
-  );
-} */
-
-.content {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  padding: 0 10rem;
-}
-
-.content-text {
-  flex: 5;
-  font-size: 1.8rem;
-  padding: 0 1rem;
+  padding-bottom: 25px;
 }
 
 .form input {
@@ -365,8 +343,16 @@ hr {
   height: 500px;
 }
 
+/* FOOTER */
+footer {
+  max-width: 1400px;
+  flex-basis: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* FILLER */
-.filler {
+/* .filler {
   height: auto;
   width: stretch;
   background-color: rgb(154, 154, 250);
@@ -382,4 +368,4 @@ hr {
   max-width: 1400px;
   padding: 5rem 15rem;
   text-align: center;
-}
+} */
