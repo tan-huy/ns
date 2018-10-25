@@ -144,11 +144,29 @@ h1 {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 1400px) {
-  nav ul li {
-    font-size: 0.1rem;
+@media (min-width: 1440px) {
+  .contact .form input {
+    width: 35%;
   }
-  
+}
+@media (max-width: 1244px) {
+  .navbar nav {
+    padding: 0.3rem 8rem;
+  }
+}
+
+@media (max-width: 1133px) {
+  #home {
+    display: none;
+  }
+
+  .navbar nav {
+    padding: 0.3rem 6rem;
+  }
+}
+
+@media (max-width: 1074px) {
+
 }
 
 @media (max-width: 800px) {
@@ -340,7 +358,7 @@ hr {
 }
 
 .form input {
-  width: 35%;
+  width: 50%;
   height: 50px;
   border-radius: 4px;
   margin: 10px;
