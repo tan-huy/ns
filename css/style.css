@@ -144,6 +144,13 @@ h1 {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 1400px) {
+  nav ul li {
+    font-size: 0.1rem;
+  }
+  
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 2rem;
@@ -214,7 +221,7 @@ nav ul li a:hover {
   color: #e2472f;
 }
 
-nav ul li a.active {
+nav ul li a:active {
   background: #e2472f;
   color: #fff;
   border-radius: 6px;
